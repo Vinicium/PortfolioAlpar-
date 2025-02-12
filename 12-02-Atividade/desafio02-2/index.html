@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="desafio01-2.js" defer>
+
+    </script>
+</head>
+
+<body>
+
+    <h2 class="center" id="titulo">Insira os dados para calcular o valor do produto</h2>
+    <form action="" id="form" class="center">
+
+        <label for="valor">Digite o valor</label><br>
+        <input type="number" id="valor"><br>
+
+        <label for="cupom">Digite cupom</label><br>
+        <input type="text" id="cupom"><br>
+
+     
+
+        <select name="estados" id="estados">
+          
+            <option value="sp">SP</option>
+            <option value="rj">RJ</option>
+            <option value="outros">Outros</option>
+          
+        </select>
+
+        <input type="submit" id="botao" onclick="calculo(); return false;">
+
+    </form>
+
+    <p id="promo">Cupom: PROMO15</p>
+
+
+
+
+
+</body>
+
+</html>

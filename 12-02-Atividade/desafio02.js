@@ -18,7 +18,7 @@ delta = b * b - 4 * a * c;
 
 raiz = delta ** (1 / 2);
 
-if (delta < 0){
+if (delta < 0 || a == 0){
     console.log("Nao existem raizes reais");
 } else {
 
