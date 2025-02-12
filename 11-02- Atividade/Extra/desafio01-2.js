@@ -1,7 +1,3 @@
-// Pessoal, tudo bem?
-
-// Pra quem já encerrou os exercícios de hoje, eu deixo mais um desafio....
-
 // Criar uma calculadora de impostos.
 
 // A calculadora precisa conter 3 variáveis: uma que recebe um preço de um produto(em decimal, por favor), uma que informe se o produto tem direito a desconto (desconto de 10%), e o ICMS (que pode variar entre 12 e 25%)
