@@ -20,7 +20,7 @@ Poderá ser exibido em tela avisos de ganho e perda de pontos
  
 
 let parImpar,
-  pontos = 100
+  pontos = 50 //de 100 para 50 a % de ganho/derrota melhora
   ;
 //console.log("Pontuação: " + pontos);
 
@@ -52,16 +52,6 @@ for (let i = 1; i <= 20; i++) {
     pontos += 10;
     console.log("dado impar ganhou 10 pontos ")
   }
-
-/* 
-  if (dado == 6 || dado == 3) {
-    pontos += 15;
-  }
-  if (dado == 4) {
-    perda += 20;
-  }
-  */
-
 
   if (i % 3 === 0) {
     pontos += 15;

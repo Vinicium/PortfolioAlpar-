@@ -15,6 +15,7 @@ raiz = delta ** (1/2);
 x1 = (-b + raiz) / (2 * a);
 x2 = (-b - raiz) / (2 * a);
 
-console.log(x1);
-console.log(x2);
-console.log(raiz);
+console.log("Raiz x1: "+x1);
+console.log("Raiz x2: "+x2);
+
+//console.log(raiz);
