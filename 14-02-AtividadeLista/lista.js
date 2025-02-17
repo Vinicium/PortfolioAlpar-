@@ -44,7 +44,6 @@ function adicionar() {
   console.log("\nItem '" + item + "' adicionado!\n");
 
   menu();
- 
 }
 
 function exibir() {
@@ -62,24 +61,19 @@ function exibir() {
 }
 
 function remover() {
-
   console.log("\nDigite o nome de um item para removelo: \n");
   let itemRemover = prompt();
 
   let position = listaDeCompras.lastIndexOf(itemRemover);
 
-  if(position != -1)
-  {
-    listaDeCompras.splice(position, 1);   
-    console.log("\nItem "+itemRemover+" removido com sucesso.");
-
-  }else{
-
-    console.log("Nenhum item com esse nome encontrado")
-  } 
+  if (position != -1) {
+    listaDeCompras.splice(position, 1);
+    console.log("\nItem " + itemRemover + " removido com sucesso.");
+  } else {
+    console.log("Nenhum item com esse nome encontrado");
+  }
 
   menu();
- 
 }
 
 menu();
